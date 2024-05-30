@@ -64,15 +64,15 @@ class App extends React.Component {
               switch (args.data) {
                 case "main_nav_menu_cliked":
                   this.setState({ title: "Tableau de bords projet" });
-                  this.setState({ link: "https://app.powerbi.com/reportEmbed?reportId=b3663dfa-cf78-40c7-9792-b398d1ac42be&autoAuth=true&ctid=be0be093-a2ad-444c-93d9-5626e83beefc" });
+                  this.setState({ link: "https://app.powerbi.com/reportEmbed?reportId=db16184c-612d-4eeb-b3d1-e656006f5f2a&autoAuth=true&ctid=be0be093-a2ad-444c-93d9-5626e83beefc" });
                   break;
                 case "submenu_1_clicked":
                   this.setState({ title: "Tableau de bords projet" });
-                  this.setState({ link: "https://app.powerbi.com/reportEmbed?reportId=b3663dfa-cf78-40c7-9792-b398d1ac42be&autoAuth=true&ctid=be0be093-a2ad-444c-93d9-5626e83beefc" });
+                  this.setState({ link: "https://app.powerbi.com/reportEmbed?reportId=db16184c-612d-4eeb-b3d1-e656006f5f2a&autoAuth=true&ctid=be0be093-a2ad-444c-93d9-5626e83beefc" });
                   break;
                 case "submenu_2_clicked":
                   this.setState({ title: "Tableau de bords data"});
-                  this.setState({ link: "https://app.powerbi.com/reportEmbed?reportId=b3663dfa-cf78-40c7-9792-b398d1ac42be&autoAuth=true&ctid=be0be093-a2ad-444c-93d9-5626e83beefc" });
+                  this.setState({ link: "https://app.powerbi.com/reportEmbed?reportId=db16184c-612d-4eeb-b3d1-e656006f5f2a&autoAuth=true&ctid=be0be093-a2ad-444c-93d9-5626e83beefc" });
                 break;
               }
               break;
